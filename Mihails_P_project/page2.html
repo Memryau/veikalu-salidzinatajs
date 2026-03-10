@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style_2.css">
+ <title>Izvēlies produktus</title>
+</head>
+<body>
+ <div class="container">
+ <div class="title">Izdevīgākais veikals!</div>
+ <div class="subtitle">Izvēlies produktus!</div>
+ 
+ <div id="productContainer">
+ <div class="product-row">
+ <select class="product-select">
+ <option value="">Produkts</option>
+ <option value="Maize">Maize</option>
+ <option value="Piens">Piens</option>
+ <option value="Gurķi">Gurķi</option>
+ <option value="Gaļa">Gaļa</option>
+ <option value="Citrons">Citrons</option>
+ <option value="Makoroni">Makoroni</option>
+ </select>
+ <input type="number" min="1" class="quantity-input" placeholder="...">
+ <button class="delete-button" onclick="deleteRow(this)">X</button>
+ </div>
+ </div>
+ <button class="next-button" onclick="addRow()">Pievienot produktu</button>
+ <button class="next-button" id="nextButton" onclick="goToPage3()">Tālāk!</button>
+ </div>
+ <script src="script_2.js"></script>
+</body>
+</html>

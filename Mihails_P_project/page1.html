@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style_1.css">
+ <title>Izdevīgākais veikals!</title>
+</head>
+<body>
+ <div class="container">
+ <div class="header">Izdevīgākais veikals!</div>
+ <div class="subtitle">Izvēlies veikalus!</div>
+ <div class="veikalu-izvele">
+ <div class="veikals" onclick="toggleSelection(this)">
+ <img src="logotipi/maxima-logo.png" alt="Maxima">
+ </div>
+ <div class="veikals" onclick="toggleSelection(this)">
+ <img src="logotipi/rimi-logo.png" alt="Rimi">
+ </div>
+ <div class="veikals" onclick="toggleSelection(this)">
+ <img src="logotipi/mego-logo.png" alt="Mego">
+ </div>
+ <div class="veikals" onclick="toggleSelection(this)">
+ <img src="logotipi/lidl-logo.webp" alt="Lidl">
+ </div>
+ <div class="veikals" onclick="toggleSelection(this)">
+ <img src="logotipi/elvi-logo.png" alt="Elvi">
+ </div>
+ </div>
+ <button class="next-button" id="nextButton" onclick="goToPage2()">Tālāk!</button>
+ </div>
+ <script src="script_1.js"></script>
+</body>
+</html>
